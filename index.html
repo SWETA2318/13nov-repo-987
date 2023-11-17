@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #eg1{
+            color: blue;
+            background-color: aqua;
+        }
+        #eg2{
+            color: greenyellow;
+            background-color: black;
+        }
+        p{
+            color: aqua;
+            background-color: blueviolet;
+        }
+  </style>
+  <link rel="stylesheet"href="style.css">
+</head>
+<body>
+    <!--
+        1.Wrapping up git and github
+        2.intro to css
+        3.CSS Selectors
+        4.Text Properties
+        5.Font Properties
+    -->
+    <!--
+        cascading style sheets
+    -->
+<!--
+    puropose of CSS:
+    1.consisstency
+-->
+<!--
+    Three ways to use CSS with HTML:
+    1.Inline
+    2.Internal
+    3.External
+-->
+<!--inline > internal > external -->
+<!--
+    inline CSS
+-->
+<h1 style="color:red; background-color: yellow;"> Ayush acciojob</h1>
+<h1>H<sub>2</sub>So<sub>4</sub></h1>
+<p style="color:green; background-color:blue;">Ayush<i>Acciojob</i> fronted developer</p>
+<p style="color:green; background-color:blue;">Ayush<s>Acciojob</s> fronted developer</p>
+<p>Ayush<small>Acciojob</small>fronted developer</p>
+ <!--
+    pross:
+    1. quick and easy
+    2.highest priority
+    cons:
+    1.Not suitable for big projects
+    2.It is considered as a bad practice beacause it reduces code readability
+    3.It does not provide code reusability
+ -->  
+ <!--Internal CSS--> 
+ <h1 id="">Hello world</h1>
+ <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus asperiores est magnam molestiae tempora quam eius eveniet repellat quod odit. Repellat illo, voluptatum quam fuga quia exercitationem modi ab laboriosam.</p>
+ <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus asperiores est magnam molestiae tempora quam eius eveniet repellat quod odit. Repellat illo, voluptatum quam fuga quia exercitationem modi ab laboriosam.</p>
+ <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus asperiores est magnam molestiae tempora quam eius eveniet repellat quod odit. Repellat illo, voluptatum quam fuga quia exercitationem modi ab laboriosam.</p>
+ <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus asperiores est magnam molestiae tempora quam eius eveniet repellat quod odit. Repellat illo, voluptatum quam fuga quia exercitationem modi ab laboriosam.</p>
+ <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus asperiores est magnam molestiae tempora quam eius eveniet repellat quod odit. Repellat illo, voluptatum quam fuga quia exercitationem modi ab laboriosam.</p>
+<!--
+    pros:
+    1.keeps the file clean
+    2.provides reusability
+    3.No extra files is needed to be created
+    cons:
+    1.we are still not able to use the code written for multi page website
+    2.It is better to create a separate file alltogether for css since it has a different work/function.
+
+-->
+<!--External CSS-->
+<!--CSS selectors-->
+<!--
+    1.Universal selector
+    2.Type selector
+    3.Id selector
+    4.Class selector//Advanced selector
+    5.pseudo selector
+    6.combinator selector
+-->
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus doloremque aliquam inventore, deserunt, a veritatis et ab porro nulla aut eius necessitatibus repellat officiis. Ex eaque alias nulla quaerat doloremque!</p>
+<h1 class="my-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga enim dolor suscipit dolorum, aliquam ut, est repudiandae totam soluta natus excepturi sequi earum labore eos quisquam libero velit repellendus cumque.</h1>
+<div class="my-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid voluptatibus alias enim sequi quis, omnis asperiores laboriosam ullam corrupti nostrum debitis repellendus itaque culpa reiciendis ipsa ducimus facilis. Consequatur, adipisci.</div>
+<span class="my-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus pariatur ad et quidem, quo nemo? Autem harum rem laboriosam eius delectus cumque laborum numquam saepe qui, necessitatibus accusamus nemo ut?</span>
+<!--class is not unique and multiple classes canbe provided to same element-->
+<h1 class="my-box">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum necessitatibus quia, cum rerum velit maiores! Facilis, temporibus deleniti. A accusantium ipsa et explicabo provident qui cupiditate harum dolores nam repellendus.</h1>
+<button class="btn">Login</button>
+<button class="btn">Signup</button>
+<!--btn-->
+<button class="btn">Goto Dashboard</button>
+<div id="eg3">
+    <p> Hi I am child 1</p>
+    <div>
+        <h2>Hi I am h2 grandchild1</h2>
+        <p>Hi I am p grandchild 2</p>
+    </div>
+    
+    <p> Hi I am child 3</p>
+    <h3>Hi I am child 4</h3>
+    <h2>Hi I am child 5</h2>
+    <div>
+        <p> - Hello I am p grandchild 3</p>
+        <div><p> Hello I am p great grandchild</p></div>
+    </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+/*universal selector*/
+* {
+    color: green;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: arial, helvetics, sans-serif;
+}
+
+/*type selector*/
+h1 {
+    color: aqua;
+    background-color: black;
+}
+
+/*id selector*/
+#eg1{
+    color: yellow;
+    background-color: blue;
+}
+/* class selector */
+.my box{
+    color: red;
+    background-color: pink;
+}
+.btn{
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: aqua;
+    font-weight: 800;
+}
